@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  flutter-android:
+    build:
+      context: .
+      dockerfile: flutter-android/Dockerfile
+    volume:
+      ./app:/app
